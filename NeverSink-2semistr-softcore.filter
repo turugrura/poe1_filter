@@ -1,3 +1,42 @@
+Show # Currency TIER 1
+  Class == "Stackable Currency"
+  BaseType "Chaos Orb"
+  SetFontSize 42
+  SetTextColor 0 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 240 90 35 255
+  PlayEffect Yellow
+  MinimapIcon 0 Orange Circle
+  PlayAlertSound 6 300
+  CustomAlertSound "ChaosJaa.mp3" 300
+  DisableDropSound True
+
+Show # Currency TIER 0
+  Class == "Stackable Currency"
+  BaseType "Divine Orb"
+  SetFontSize 50
+  SetTextColor 255 0 0 255
+  SetBorderColor 255 0 0 255
+  SetBackgroundColor 255 255 255 255
+  PlayAlertSound 6 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+  CustomAlertSound "Divineee.mp3" 300
+  DisableDropSound True
+
+Show # Currency TIER 2
+  Class == "Stackable Currency"
+  BaseType "Exalted Orb"
+  SetFontSize 40
+  SetTextColor 255 215 0 255
+  SetBackgroundColor 40 20 0 200
+  SetBorderColor 255 215 0 255
+  PlayEffect Orange
+  MinimapIcon 0 Yellow Circle
+  #PlayAlertSound 3 200
+  CustomAlertSound "Exalted.wav" 300
+  DisableDropSound True
+
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
